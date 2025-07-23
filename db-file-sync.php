@@ -29,8 +29,10 @@ function dbfs_load_plugin_files() {
         '/includes/class-auth.php',
         '/includes/class-utils.php',
         '/db-sync/class-db-sync.php',
+        '/db-sync/class-options-sync.php',
         '/db-sync/db-endpoints.php',
         '/file-sync/class-file-sync.php',
+        '/file-sync/stuck-file-handler.php',
         '/file-sync/file-endpoints.php',
         '/admin/admin-page.php'
     ];
