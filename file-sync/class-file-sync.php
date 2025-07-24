@@ -15,7 +15,7 @@ class DBFS_File_Sync {
     protected $max_execution_time;
     
     public function __construct($source_url = '', $chunk_size = 1048576, $max_execution_time = 300) { // 1MB chunks
-        $this->source_url = $source_url ?: 'http://sajah.local';
+        $this->source_url = $source_url ?: '';
         $this->chunk_size = $chunk_size;
         $this->max_execution_time = $max_execution_time;
     }
